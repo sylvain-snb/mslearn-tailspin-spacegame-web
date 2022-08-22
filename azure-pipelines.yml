@@ -6,8 +6,8 @@ trigger:
 - '*'
 
 pool:
-  #vmImage: 'ubuntu-20.04'
-  name: local
+  vmImage: 'ubuntu-20.04'
+  #name: local
   demands:
   - npm
 
